@@ -1,6 +1,6 @@
 import json
 
-with open('faturamento.json', 'r') as file:
+with open('dados.json', 'r') as file:
     data = json.load(file)
 
 faturamento_diario = list(data.values())
